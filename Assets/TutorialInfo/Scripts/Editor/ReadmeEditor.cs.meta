@@ -10,3 +10,10 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149311
+  packageName: 'Unity Learn | Creator Kit: Puzzle | URP'
+  packageVersion: 3.1
+  assetPath: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  uploadId: 690891
