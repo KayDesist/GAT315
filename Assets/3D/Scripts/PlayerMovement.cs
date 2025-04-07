@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+   
     [SerializeField] float speed = 1;
     [SerializeField] float jumpHeight = 2;
     [SerializeField] LayerMask layerMask = Physics.AllLayers;
@@ -26,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(Vector3.up * Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight),ForceMode.Impulse);
         }
 
-        var colliders= Physics.OverlapSphere(transform.position, 2, layerMask);
+        /*var colliders= Physics.OverlapSphere(transform.position, 2, layerMask);
         foreach (var collider in colliders)
         { 
             Destroy(collider.gameObject);
@@ -35,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         if(Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, 5, layerMask))
         {
             Destroy(hit.collider.gameObject.gameObject);
-        }
+        }*/
 
     }
 
@@ -43,7 +44,7 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.AddForce(force, ForceMode.Force);
-        rb.AddTorque(Vector3.up);
+        //rb.AddTorque(Vector3.up);
     }
 
     private void OnDrawGizmosSelected()
