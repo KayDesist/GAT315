@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Barrier
+  - Goal
   layers:
   - Default
   - TransparentFX
@@ -13,11 +16,11 @@ TagManager:
   - UI
   - 
   - 
-  - Plastic
-  - Metal
-  - Concrete
-  - 
-  - 
+  - Enemy
+  - Player
+  - Barrier
+  - Background
+  - Tilemap
   - 
   - 
   - 
@@ -40,6 +43,66 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: backgroundp1
+    uniqueID: 3589408515
+    locked: 0
+  - name: background
+    uniqueID: 1017169033
+    locked: 0
+  - name: cloudsp3
+    uniqueID: 1243598009
+    locked: 0
+  - name: cloudsp2
+    uniqueID: 3771350677
+    locked: 0
+  - name: clouds
+    uniqueID: 1051016763
+    locked: 0
+  - name: hills lvl2
+    uniqueID: 303166005
+    locked: 0
+  - name: hills lvl1
+    uniqueID: 3336268817
+    locked: 0
+  - name: treelvl2p3
+    uniqueID: 906211565
+    locked: 0
+  - name: treelvl2p2
+    uniqueID: 2238635783
+    locked: 0
+  - name: treelvl2
+    uniqueID: 705623739
+    locked: 0
+  - name: trees lvl1p3
+    uniqueID: 3742163117
+    locked: 0
+  - name: trees lvl1p2
+    uniqueID: 198356621
+    locked: 0
+  - name: treelv1
+    uniqueID: 4215932181
+    locked: 0
+  - name: Background
+    uniqueID: 2678303151
+    locked: 0
+  - name: tilemap
+    uniqueID: 3097981423
+    locked: 0
+  - name: players
+    uniqueID: 2541065915
+    locked: 0
+  - name: enemy
+    uniqueID: 406149111
+    locked: 0
+  - name: Barriers
+    uniqueID: 3192221119
+    locked: 0
+  - name: collectables
+    uniqueID: 3031491779
+    locked: 0
+  - name: platforms
+    uniqueID: 1640806529
     locked: 0
   m_RenderingLayers:
   - Default
